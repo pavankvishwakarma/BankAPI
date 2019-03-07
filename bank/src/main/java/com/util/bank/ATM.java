@@ -40,7 +40,7 @@ class ATM2 implements Runnable {
 	}
 
 	public void run() {
-		for (int i = 0; i < 29; i++) {
+		for (int i = 0; i < 30; i++) {
 			try {
 				Thread.sleep(1000);
 				BankOperationUtil.cashWithdrawal(b, 100);
